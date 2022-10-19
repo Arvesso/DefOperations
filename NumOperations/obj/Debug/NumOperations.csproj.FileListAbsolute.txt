@@ -1,0 +1,13 @@
+C:\Users\artem\source\repos\NumOperations\NumOperations\bin\Debug\NumOperations.dll
+C:\Users\artem\source\repos\NumOperations\NumOperations\bin\Debug\NumOperations.pdb
+C:\Users\artem\source\repos\NumOperations\NumOperations\obj\Debug\NumOperations.csproj.AssemblyReference.cache
+C:\Users\artem\source\repos\NumOperations\NumOperations\obj\Debug\NumOperations.csproj.CoreCompileInputs.cache
+C:\Users\artem\source\repos\NumOperations\NumOperations\obj\Debug\NumOperations.dll
+C:\Users\artem\source\repos\NumOperations\NumOperations\obj\Debug\NumOperations.pdb
+C:\Users\artem\Desktop\Source\NumOperations\NumOperations\bin\Debug\NumOperations.dll
+C:\Users\artem\Desktop\Source\NumOperations\NumOperations\bin\Debug\NumOperations.pdb
+C:\Users\artem\Desktop\Source\NumOperations\NumOperations\obj\Debug\NumOperations.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\Source\NumOperations\NumOperations\obj\Debug\NumOperations.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\Source\NumOperations\NumOperations\obj\Debug\NumOperations.dll
+C:\Users\artem\Desktop\Source\NumOperations\NumOperations\obj\Debug\NumOperations.pdb
+C:\Users\artem\Desktop\Source\NumOperations\NumOperations\bin\Debug\NumOperations.xml

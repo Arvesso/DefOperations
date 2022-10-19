@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NumOperations</name>
+    </assembly>
+    <members>
+        <member name="T:NumOperations.Int">
+            <summary>
+            Библиотека упрощенных рутинных операций 
+            </summary>
+        </member>
+        <member name="M:NumOperations.Int.getLenght(System.Int32)">
+            <summary>
+            Разбивает число int на цифры
+            </summary>
+            <param name="number">Исходное число</param>
+            <returns>Возвращает массив цифр исходного числа</returns>
+        </member>
+        <member name="M:NumOperations.Int.lenght(System.Int32)">
+            <summary>
+            Определяет длину числа int
+            </summary>
+            <param name="number">Исходное число</param>
+            <returns>Возвращает число, равное количеству цифр в исходном числе</returns>
+        </member>
+        <member name="M:NumOperations.Int.Operation(System.Int32,System.Char)">
+            <summary>
+            Выполняет математические операции над цифрами в числе
+            </summary>
+            <param name="value">Число</param>
+            <param name="operation">Операция '+' '-' '/' '*'</param>
+            <returns>Возвращает результат выполнения операции</returns>
+        </member>
+        <member name="M:NumOperations.Int.getIndex``1(System.Int32[0:,0:],System.Int32)">
+            <summary>
+            Поиск индекса указанного элемента в двумерном массиве
+            </summary>
+            <param name="Array">Двумерный массив</param>
+            <param name="value">Искомый элемент</param>
+            <returns>Возвращает одномерный массив с двумя элементами индекса (null в случае отсутствия искомого элемента)</returns>
+        </member>
+        <member name="M:NumOperations.Int.getArray(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Генерирует двумерный массив, заполненный случайными числами 
+            </summary>
+            <param name="lenght0">Количество строк</param>
+            <param name="lenght1">Количество столбцов</param>
+            <param name="minValue">Минимальное значение генерации элементов (default = 10)</param>
+            <param name="maxValue">Максимальное значение генерации элементов (default = 99)</param>
+            <returns>Возвращает двумерный массив, заполненный случайными элементами</returns>
+        </member>
+        <member name="M:NumOperations.Int.getArray(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Генерирует одномерный массив, заполненный случайными числами 
+            </summary>
+            <param name="lenght0">Количество элементов</param>
+            <param name="minValue">Минимальное значение генерации элементов</param>
+            <param name="maxValue">Максимальное значение генерации элементов</param>
+            <returns>Возвращает одномерный массив, заполненный случайными элементами</returns>
+        </member>
+        <member name="M:NumOperations.Int.arrayPrint``1(``0[0:,0:])">
+            <summary>
+            Выводит двумерный массив в консоль
+            </summary>
+            <param name="Array">Двумерный массив</param>
+        </member>
+        <member name="M:NumOperations.Int.arrayPrint``1(``0[])">
+            <summary>
+            Выводит одномерный массив в консоль
+            </summary>
+            <param name="Array">Одномерный массив</param>
+        </member>
+        <member name="M:NumOperations.Int.Resize``1(``0[0:,0:]@,System.Int32,System.Int32)">
+            <summary>
+            Изменяет размер двумерного массива
+            </summary>
+            <param name="Array">Двумерный массив</param>
+            <param name="ySize">Новое количество строк</param>
+            <param name="xSize">Новое количество столбцов</param>
+        </member>
+        <member name="M:NumOperations.Int.changeElement``1(``0[0:,0:]@,System.Int32,System.Int32,``0)">
+            <summary>
+            Изменяет элемент в указанном индексе двумерного массива
+            </summary>
+            <param name="Array">Двумерный массив</param>
+            <param name="indexY">Строка</param>
+            <param name="indexX">Столбец</param>
+            <param name="Element">Элемент</param>
+        </member>
+        <member name="M:NumOperations.Int.addElement``1(``0[]@,System.Int32,``0)">
+            <summary>
+            Добавляет элемент по указанному индексу в одномерный массив
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Array">Одномерный массив</param>
+            <param name="index">Индекс</param>
+            <param name="Element">Элемент</param>
+        </member>
+        <member name="M:NumOperations.Int.deleteElement``1(``0[]@,System.Int32)">
+            <summary>
+            Удаляет элемент по указанному индексу из одномерного массива
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Array">Одномерный массив</param>
+            <param name="index">Индекс</param>
+        </member>
+        <member name="M:NumOperations.Int.deleteFirstElement``1(``0[]@)">
+            <summary>
+            Удаляет первый элемент одномерного массива
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Array">Одномерный массив</param>
+        </member>
+        <member name="M:NumOperations.Int.deleteLastElement``1(``0[]@)">
+            <summary>
+            Удаляет последний элемент одномерного массива
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Array">Одномерный массив</param>
+        </member>
+        <member name="M:NumOperations.Int.addFirstElement``1(``0[]@,``0)">
+            <summary>
+            Добавляет указанный элемент в начало одномерного массива
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Array">Одномерный массив</param>
+            <param name="Element">Элемент</param>
+        </member>
+        <member name="M:NumOperations.Int.addLastElement``1(``0[]@,``0)">
+            <summary>
+            Добавляет указанный элемент в конец одномерного массива
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Array">Одномерный массив</param>
+            <param name="Element">Элемент</param>
+        </member>
+        <member name="M:NumOperations.Int.clearElement``1(``0[0:,0:]@,System.Int32,System.Int32)">
+            <summary>
+            Очищает элемент (set default) по указанному индексу в двумерном массиве
+            </summary>
+            <param name="Array">Двумерный массив</param>
+            <param name="indexY">Строка</param>
+            <param name="indexX">Столбец</param>
+        </member>
+        <member name="M:NumOperations.Int.clearElement``1(``0[]@,System.Int32)">
+            <summary>
+            Очищает элемент (set default) по указанному индексу в одномерном массиве
+            </summary>
+            <param name="Array">Одномерный массив</param>
+            <param name="index">Индекс</param>
+        </member>
+    </members>
+</doc>
